@@ -45,9 +45,11 @@
             </Trigger>
         </ControlTemplate.Triggers>
     </ControlTemplate>
+    -->
 
     <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
-        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="Background" Value="Crimson" />
+        <!--<Setter Property="FocusVisualStyle" Value="{x:Null}" />
         <Setter Property="Background" Value="{theme:ThemeResource ResourceKey=ControlBackground}" />
         <Setter Property="BorderBrush" Value="{theme:ThemeResource ResourceKey=ControlBorder}" />
         <Setter Property="Foreground" Value="{theme:ThemeResource ResourceKey=ControlForeground}" />
@@ -58,11 +60,11 @@
         <Setter Property="SnapsToDevicePixels" Value="True" />
         <Setter Property="Padding" Value="2" />
         <Setter Property="ap:ButtonProperties.CornerRadius" Value="0" />
-        <Setter Property="Template" Value="{StaticResource ButtonTemplate}" />
+        <Setter Property="Template" Value="{StaticResource ButtonTemplate}" />-->
     </Style>
     <Style BasedOn="{StaticResource ButtonStyle}" TargetType="{x:Type Button}" />
 
-    <ControlTemplate x:Key="WindowButtonTemplate" TargetType="{x:Type Button}">
+    <!--<ControlTemplate x:Key="WindowButtonTemplate" TargetType="{x:Type Button}">
         <Grid Background="Transparent">
             <Border x:Name="MouseOverBorder"
                 Background="{theme:ThemeResource ResourceKey=WindowControlMouseOverBackground}"
